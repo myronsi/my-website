@@ -1,0 +1,24 @@
+.bottom-bar {
+    color: #fff;
+    background: #1F1F1F;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 70px;
+}
+.bottom-bar p   {
+    color: #fff;
+    margin: 0;
+    font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
+    padding: 7px;
+}
+.footer-copyright p {
+    margin: 0;
+    font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
+    padding: 7px;
+}
+.footer-copyright a {
+    color: #fff;
+}
+.footer-copyright a:hover   {
+    opacity: 0.7;
+}

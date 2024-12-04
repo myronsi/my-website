@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Inter:wght@100&display=swap" rel="stylesheet">
+	<!--main-->
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Viserix</title>
+	<!--styles-->
+	<link rel="stylesheet" href="CSS/index_page.css">
+	<style>
+		*   {
+    	cursor: default;
+    	text-decoration: none;
+    	margin: 0;
+    	padding: 0;
+		}
+		.bottom-bar {
+		line-height: 10px;
+    	color: #fff;
+    	text-align: center;
+    	margin-top: 470px;
+		}
+		.bottom-bar p   {
+	    color: #fff;
+    	margin: 0;
+    	font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
+		}
+		.footer-copyright p {
+    	margin: 0;
+    	font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
+    	padding: 7px;
+		}
+		.footer-copyright a {
+    	color: #fff;
+		}
+		.footer-copyright a:hover   {
+    	opacity: 0.7;
+		}
+	</style>
+	<!--favicons-->
+	<link rel="shortcut icon" href="favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<!--scripts-->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="hamburger.js"></script>
+</head>
+<body>
+<header class="header">
+	<div id="logo">
+		<a href="index.html" id="header_img">
+			<img src="img/logo2.png" width="182px">
+		</a>
+	</div>
+	<div class="burger_container">
+		<div class="header__burger">
+			<span></span>
+		</div>
+	</div>
+	<nav class="navbar">
+		<div id="container">
+			<div class="navbar-wrap">
+				<ul class="navbar-menu">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="/projects">PROJECTS</a></li>
+					<li><a href="termsofuse.html">TERMS OF USE</a></li>
+					<!--<li><a href="support.html">SUPPORT</a></li>-->
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+<footer>
+	<div class="bottom-bar">
+		<p>Republishing site content for commercial purposes is illegal
+		<div class="footer-copyright">
+			<p><a href="index.html">Copyright &copy; 2024 Viserix ⠀All rights reserved</a></p>
+		</div>
+		<p>ver: 1.00</p>
+	</div>
+</footer>
+</body>
+</html>
